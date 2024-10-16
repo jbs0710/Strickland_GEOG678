@@ -10,3 +10,4 @@ GEOG 678 - WEB GIS
 |[Lab_5](Lab_5/README.md)|
 |[Lab_6](Lab_6/README.md)|
 |[Lab_7](Lab_7/README.md)|
+|[Lab_8](Lab_8/README.md)|
