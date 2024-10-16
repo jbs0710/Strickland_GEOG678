@@ -1,1 +1,2 @@
-# Strickland_GEOG678
+#WEB GIS
+GEOG 678 - WEB GIS
