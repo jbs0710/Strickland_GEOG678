@@ -1,6 +1,6 @@
 #WEB GIS
 GEOG 678 - WEB GIS
 
-Test Edit
+This is a test!!!
 
 Lab_1
