@@ -35,7 +35,7 @@ Lab_2
 
 [Lab 2 - Parks - Web App](https://tamu.maps.arcgis.com/apps/mapviewer/index.html?webmap=c686b94689894c348be8452ac3b1e0a4)
 
-- Screenshot of App on iPhone:
+- Screenshot of App on iPhone - Anderson Park and John Crompton Park:
 
 ![Lab 2 - Parks - Web App Screenshot](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_2/Lab%202%20-%20Web%20App%20Screenshot%20of%20Parks.png)
 
