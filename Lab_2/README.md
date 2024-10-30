@@ -22,3 +22,8 @@ Lab_2
 - Link to map below:
 
 [State of Texas - Grocery Store - Web App](https://tamu.maps.arcgis.com/apps/instant/basic/index.html?appid=c9c24dfc830343bab2112af3d5eba36d)
+
+
+- Screenshot of App on iPhone:
+
+![Lab 2 - Web App Screenshot](Lab_2/Lab 2 - Web App Screenshot.png)
