@@ -16,3 +16,9 @@ Lab_2
 
 [State of Texas - Grocery Store](https://tamu.maps.arcgis.com/apps/mapviewer/index.html?webmap=7df3dbe55314475c9d51a2b884f0e43f)
 
+
+# Part 3 - State of Texas - Grocery Store - Web App
+
+- Link to map below:
+
+[State of Texas - Grocery Store - Web App](https://tamu.maps.arcgis.com/apps/instant/basic/index.html?appid=c9c24dfc830343bab2112af3d5eba36d)
