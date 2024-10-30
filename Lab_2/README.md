@@ -37,5 +37,6 @@ Lab_2
 
 - Screenshot of App on iPhone:
 
-![Lab 2 - Parks - Web App Screenshot](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_2/Lab%202%20-%20Web%20App%20Screenshot.png)
+![Lab 2 - Parks - Web App Screenshot](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_2/Lab%202%20-%20Web%20App%20Screenshot%20of%20Parks.png)
+
 
