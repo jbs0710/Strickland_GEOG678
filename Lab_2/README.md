@@ -26,4 +26,16 @@ Lab_2
 
 - Screenshot of App on iPhone:
 
-![Lab 2 - Web App Screenshot](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_2/Lab%202%20-%20Web%20App%20Screenshot.png)
+![Lab 2 - Grocery Store - Web App Screenshot](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_2/Lab%202%20-%20Web%20App%20Screenshot.png)
+
+
+# Part 4 - Parks around College Station, Texas
+
+- Link to map below:
+
+![Lab 2 - Parks - Web App](https://tamu.maps.arcgis.com/apps/mapviewer/index.html?webmap=c686b94689894c348be8452ac3b1e0a4)
+
+- Screenshot of App on iPhone:
+
+![Lab 2 - Parks - Web App Screenshot](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_2/Lab%202%20-%20Web%20App%20Screenshot.png)
+
