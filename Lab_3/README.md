@@ -49,6 +49,9 @@ Lab_3
 
 [CSS - Visual Rules](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_3/CSS%20Lessons/CSS%20-%20Visual%20Rules.png)
 
+# Part 3 - Resume
+
+
 
 
 
