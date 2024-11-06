@@ -51,6 +51,10 @@ Lab_3
 
 # Part 3 - Resume
 
+- Screenshot of Webpage Shown Below:
+
+![ResumeScreenshot](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_3/Resume/ResumeScreenshot.PNG)
+
 
 
 
