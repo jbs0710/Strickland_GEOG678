@@ -23,7 +23,7 @@ Lab_3
 
 
 
-# Part 1 - Code Academy - HTML Lessons
+# Part 2 - Code Academy - CSS Lessons
 
 - Completion Shown Below - Colors:
 
