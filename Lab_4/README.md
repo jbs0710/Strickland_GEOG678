@@ -7,21 +7,37 @@ Lab_4
 
 - Screenshot of Webpage Shown Below:
 
+- Task 1 - Four Corners HTML
+
 ![Task 1 - Four Corners HTML](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/HTML_TurnIn.PNG)
+
+- Task 1 - Worst Student HTML (Exercise)
 
 ![Task 1 - Worst Student HTML (Exercise)](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/HTML_Exercise.PNG)
 
 
 # Task 2: Create an HTML button which calls your javascript function Run() when it is clicked
 
+- Screenshot of Webpage Shown Below:
+
+- Task 2 - Four Corners HTML - Function Run
+
 ![Task 2 - Four Corners HTML - Function Run](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/HTML_TurnIn.PNG)
 
-![Task  - Worst Student HTML (Exercise) - Function Run](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/HTML_Exercise.PNG)
+- Task 2 - Worst Student HTML (Exercise) - Function Run
+
+![Task 2 - Worst Student HTML (Exercise) - Function Run](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/HTML_Exercise.PNG)
 
 
 # Task 3: Create the Run function inside of your Javascript file
 
+- Screenshot of Webpage Shown Below:
+
+- Task 3 - Four Corners Javascript Function Run
+
 ![Task 3 - Four Corners Javascript Function Run](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/Script.JS_TurnIn_Bottom.PNG)
+
+- Task 3 - Worst Student Javascript Function Run (Exercise)
 
 ![Task 3 - Worst Student Javascript Function Run (Exercise)](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/WorstStudent.JS_Bottom_Exercise.PNG)
 
