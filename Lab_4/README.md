@@ -44,6 +44,10 @@ Lab_4
 
 # Task 4: Create javascript functions to calculate the bounding box of the data file
 
+- Screenshot of Webpage Shown Below:
+
+- Task 4 - Bounding Box in Javasript
+
 ![Task 4 - Bounding Box in Javasript - Top](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/Script.JS_TurnIn_Top.PNG)
 
 ![Task 4 - Bounding Box in Javasript - Middle](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/Script.JS_TurnIn_Middle.PNG)
@@ -53,15 +57,27 @@ Lab_4
 
 # Task 5: Make your Run function call your function(s) that find the corners
 
+- Screenshot of Webpage Shown Below:
+
+- Task 5 - Run Function in Javasript
+
 ![Task 5 - Run Function in Javasript](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/Script.JS_TurnIn_Bottom.PNG)
 
 
 # Task 6: Create an output object from your corners
 
+- Screenshot of Webpage Shown Below:
+
+- Task 6 - New Object in Run Function
+
 ![Task 6 - New Object in Run Function](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/Script.JS_TurnIn_Bottom.PNG)
 
 
 # Task 7: Print out your result, along with your email. Take a screenshot of the console showing your email and your bounding box
+
+- Screenshot of Webpage Shown Below:
+
+- Task 7 - Results of Run Function (Console and Elements Tabs)
 
 ![Task 7 - Results of Run Function (Console)](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_4/Lab4Screenshots/HTML_WebPage_TurnIn_Console.PNG)
 
@@ -69,6 +85,8 @@ Lab_4
 
 
 # Task 8: Upload your code to your github account
+
+- Click link below:
 
 [Task 7 - Link to folder with HTML and JS files](https://github.com/jbs0710/Strickland_GEOG678/tree/main/Lab_4/Lab4_TurnIn)
 
