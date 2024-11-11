@@ -5,7 +5,7 @@ Lab_4
 
 # Task 1: Create and link the HTML and Javascript pages for this assignment
 
-- Screenshot of Webpage Shown Below:
+- Screenshot of VSCode Shown Below:
 
 - Task 1 - Four Corners HTML
 
@@ -18,7 +18,7 @@ Lab_4
 
 # Task 2: Create an HTML button which calls your javascript function Run() when it is clicked
 
-- Screenshot of Webpage Shown Below:
+- Screenshot of VSCode Shown Below:
 
 - Task 2 - Four Corners HTML - Function Run
 
@@ -31,7 +31,7 @@ Lab_4
 
 # Task 3: Create the Run function inside of your Javascript file
 
-- Screenshot of Webpage Shown Below:
+- Screenshot of VSCode Shown Below:
 
 - Task 3 - Four Corners Javascript Function Run
 
@@ -44,7 +44,7 @@ Lab_4
 
 # Task 4: Create javascript functions to calculate the bounding box of the data file
 
-- Screenshot of Webpage Shown Below:
+- Screenshot of VSCode Shown Below:
 
 - Task 4 - Bounding Box in Javasript
 
@@ -57,7 +57,7 @@ Lab_4
 
 # Task 5: Make your Run function call your function(s) that find the corners
 
-- Screenshot of Webpage Shown Below:
+- Screenshot of VSCode Shown Below:
 
 - Task 5 - Run Function in Javasript
 
@@ -66,7 +66,7 @@ Lab_4
 
 # Task 6: Create an output object from your corners
 
-- Screenshot of Webpage Shown Below:
+- Screenshot of VSCode Shown Below:
 
 - Task 6 - New Object in Run Function
 
@@ -75,7 +75,7 @@ Lab_4
 
 # Task 7: Print out your result, along with your email. Take a screenshot of the console showing your email and your bounding box
 
-- Screenshot of Webpage Shown Below:
+- Screenshot of Webpages Shown Below:
 
 - Task 7 - Results of Run Function (Console and Elements Tabs)
 
