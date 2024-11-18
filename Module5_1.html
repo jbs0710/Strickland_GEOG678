@@ -1,0 +1,22 @@
+
+<html>
+    <head>
+        <!-- What these lines do is add the network distributed version of ESRI JS (CDN) to your HTML page giving you access to ESRI JS just as if you had downloaded a copy locally.-->
+        <link rel="stylesheet" href="https://js.arcgis.com/4.6/esri/css/main.css">
+        <script src="https://js.arcgis.com/4.6/"></script>  
+        <script src="./map.js"></script>
+        <style>
+            html, body, #mapid {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            }
+        </style>        
+    </head>
+    <body>
+        <!-- We'll add in ESRI JS's CDN in our header along with our own Javascript file, then add a container mapid which will contain our MapView. We'll also call a starting function in our Javascript called main().-->
+        <div id="mapid"></div>
+        <script>main();</script>
+    </body>
+</html>
