@@ -5,8 +5,26 @@ Lab_5
 
 # Task 1: Tutorial 1: Leaflet Quick Start Guide
 
-- Screenshot of VSCode Shown Below:
+- Screenshot of Web File Shown Below:
 
 - Tutorial 1: Leaflet Quick Start Guide
 
 ![Tutorial 1: Leaflet Quick Start Guide](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_5/Lab5Screenshots/Tutorial%201.PNG)
+
+
+# Task 2: Tutorial 2: Leaflet on Mobile
+
+- Screenshot of Web File Shown Below:
+
+- Tutorial 2: Leaflet on Mobile
+
+![Tutorial 2: Leaflet on Mobile](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_5/Lab5Screenshots/Tutorial%202.PNG)
+
+
+# Task 3: Tutorial 3: Markers With Custom Icons
+
+- Screenshot of Web File Shown Below:
+
+- Tutorial 3: Markers With Custom Icons
+
+![Tutorial 3: Markers With Custom Icons](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_5/Lab5Screenshots/Tutorial%203.PNG)
