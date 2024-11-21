@@ -1,0 +1,81 @@
+
+<!-- Create a new html file with basic components-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>James Strickland First Web Map</title>
+
+    <!-- Include Leaflet CSS file in the head section of your document-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Include Leaflet JavaScript file after Leaflet’s CSS-->
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- The Lab 5 document stated to do 180px but it was too small on my computer monitor to see everything so I made it 500px-->
+    <!-- Make sure the map container has a defined height, for example by setting it in CSS-->
+    <style>
+      #map { height: 500px; }
+    </style>
+  </head>
+  <body>
+    <!-- Put a div element with a certain id where you want your map to be-->
+    <div id="map"></div>
+    <script>
+      
+    var map=L.map('map').setView([30.613, -96.341], 13);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+          }).addTo(map);
+   
+    var marker = L.marker([30.613, -96.341]).addTo(map);
+
+    var circle = L.circle([30.609887, -96.340364], {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 200
+        }).addTo(map);
+
+    marker.bindPopup("<b>Hello world!</b><br>This is Texas A&M University.").openPopup();
+    circle.bindPopup("This is Kyle Field.");
+
+
+    var popup = L.popup()
+            .setLatLng([30.613, -96.341])
+            .setContent("I am a standalone popup.")
+            .openOn(map);
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+          popup
+          .setLatLng(e.latlng)
+          .setContent("You clicked the map at " + e.latlng.toString())
+          .openOn(map);
+          }
+
+    map.on('click', onMapClick);
+
+    var Icon = L.Icon.extend({
+      options: {
+        iconSize:     [40, 60],
+        shadowSize:   [50, 64],
+        iconAnchor:   [22, 94],
+        shadowAnchor: [4, 62],
+        popupAnchor:  [-3, -76]
+
+      }
+    })
+
+    var geoIcon = new Icon({iconUrl: 'geography.png'}),
+        gradIcon = new Icon({iconUrl: 'graduation.png'})
+
+        L.marker([30.617664, -96.336668], {icon: geoIcon}).bindPopup("This is the O&M Building.").addTo(map);
+        L.marker([30.615697, -96.340841], {icon: gradIcon}).bindPopup("This is the Academic Building.").addTo(map);
+
+
+    </script>
+  </body>
+</html>
