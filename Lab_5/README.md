@@ -43,4 +43,4 @@ Lab_5
 
 - Click link below:
 
-[Click link below](https://github.com/jbs0710/Strickland_GEOG678/tree/main/Lab_5/Maps)
+[HTML Files for Lab 5](https://github.com/jbs0710/Strickland_GEOG678/tree/main/Lab_5/Maps)
