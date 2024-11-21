@@ -28,3 +28,12 @@ Lab_5
 - Tutorial 3: Markers With Custom Icons
 
 ![Tutorial 3: Markers With Custom Icons](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_5/Lab5Screenshots/Tutorial%203.PNG)
+
+
+# Task 4: Build a custom web map that integrates each of the tutorials
+
+- Screenshot of Web File Shown Below:
+
+- Task 4 - Build a custom web map that integrates each of the tutorials
+
+![Build a custom web map that integrates each of the tutorials](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_5/Lab5Screenshots/Texas%20A%26M%20University.PNG)
