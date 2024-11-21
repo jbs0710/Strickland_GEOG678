@@ -37,3 +37,10 @@ Lab_5
 - Task 4 - Build a custom web map that integrates each of the tutorials
 
 ![Build a custom web map that integrates each of the tutorials](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_5/Lab5Screenshots/Texas%20A%26M%20University.PNG)
+
+
+# Links to HTML files for everything shown above:
+
+- Click link below:
+
+[Click link below](https://github.com/jbs0710/Strickland_GEOG678/tree/main/Lab_5/Maps)
