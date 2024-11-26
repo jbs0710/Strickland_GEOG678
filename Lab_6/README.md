@@ -30,3 +30,10 @@ Lab_6
 ![Texas A&M University Campus - Interactive Map ](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_6/Lab6Screenshots/TAMUBuildings1.PNG)
 
 ![Texas A&M University Campus - Interactive Map ](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_6/Lab6Screenshots/TAMUBuildings2.PNG)
+
+
+# Links to HTML files for everything shown above:
+
+- Click link below:
+
+[HTML Files for Lab 6](https://github.com/jbs0710/Strickland_GEOG678/tree/main/Lab_6/Maps)
