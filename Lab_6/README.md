@@ -19,3 +19,14 @@ Lab_6
 - Tutorial 2: Interactive Choropleth Map 
 
 ![Tutorial 2: Interactive Choropleth Map ](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_6/Lab6Screenshots/Tutorial%202.PNG)
+
+
+# Task 3: Build a custom web map
+
+- Screenshot of Web File Shown Below:
+
+- Task 3: Build a custom web map - Texas A&M University Campus - Interactive Map
+
+![Texas A&M University Campus - Interactive Map ](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_6/Lab6Screenshots/TAMUBuildings1.PNG)
+
+![Texas A&M University Campus - Interactive Map ](https://github.com/jbs0710/Strickland_GEOG678/blob/main/Lab_6/Lab6Screenshots/TAMUBuildings2.PNG)
