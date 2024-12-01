@@ -7,12 +7,12 @@ Lab_7
 
 - Link to 2D Storymap:
 
-![Link to 2D storymap](https://arcg.is/1498PT0)
+[Link to 2D storymap](https://arcg.is/1498PT0)
 
 
 # Task 2: Construct a 3D storymap about a topic of TAMU campus
 
 - Link to 3D Storymap:
 
-![Link to 3D storymap](https://arcg.is/0TTGTq2)
+[Link to 3D storymap](https://arcg.is/0TTGTq2)
 
