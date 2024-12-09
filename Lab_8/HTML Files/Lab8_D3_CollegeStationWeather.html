@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 
 <html>
@@ -148,3 +149,155 @@
 </body>
 </html>
 
+=======
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Lab 8 - D3 College Station Weather- James Strickland</title>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <style>
+      .highline{
+        stroke: orange;
+        width: 5;
+      }
+
+      .lowline{
+        stroke: blue;
+        width: 5;
+      }
+
+      .axis path,
+      .axis line{
+        shape-rendering: crispEdges;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <svg width="1000" height="500"></svg>
+
+    <script>
+      // add data (College Station weather) - "Saturday" to "Saturday"
+      const data = [
+            { date: "2024-11-30", high: 82, low: 67 },
+            { date: "2024-12-01", high: 81, low: 59 },
+            { date: "2024-12-02", high: 81, low: 50 },
+            { date: "2024-12-03", high: 70, low: 47 },
+            { date: "2024-12-04", high: 77, low: 51 },
+            { date: "2024-12-05", high: 78, low: 60 },
+            { date: "2024-12-06", high: 79, low: 66 },
+			      { date: "2024-12-07", high: 80, low: 66 },
+        ];
+
+        // sizing of the line graph
+        const margin = { top: 30, right: 50, bottom: 50, left: 50 };
+        const width = 800 - margin.left - margin.right;
+        const height = 400 - margin.top - margin.bottom;
+
+
+        // import the container into the line graph  
+        const svg = d3.select("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+
+        // define scale time - "time scales are a varient of linear scales that have a temporal domain" - source reference - "https://d3js.org/d3-scale/time"
+        const x = d3.scaleTime()
+            .domain(d3.extent(data, d => new Date(d.date)))
+            .range([0, width]);
+
+
+        // define scale linear - "constructs a new linear scale with the specified domain and range" - source reference - "https://d3js.org/d3-scale/linear"
+        const y = d3.scaleLinear() 
+            .domain([0, d3.max(data, d => Math.max(d.high, d.low))])
+            .nice()
+            // "if range is specified, set the scale range tot the specified array of values" (which is defined above) - source reference - "https://d3js.org/d3-scale/linear"
+            .range([height, 0]);
+
+
+        // define the x and y axis
+
+        const xAxis = d3.axisBottom(x).ticks(d3.timeDay.every(1));
+        const yAxis = d3.axisLeft(y);
+
+        // add title to line graph - source reference for help - "http://www.d3noob.org/2013/01/adding-title-to-your-d3js-graph.html"
+        svg.append("text")
+            .attr("x", (width / 2))             
+            .attr("y", 0 - (margin.top / 2))
+            .attr("text-anchor", "middle")  
+            .style("font-size", "20px")
+            .text("Weekly Temperature Forecast in College Station");
+
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", `translate(0,${height})`)
+            .call(xAxis);
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis);
+
+        // define both lines
+
+        const lineHigh = d3.line()
+            .x(d => x(new Date(d.date)))
+            .y(d => y(d.high));
+
+        const lineLow = d3.line()
+            .x(d => x(new Date(d.date)))
+            .y(d => y(d.low));
+
+        // place data constr
+        // using style set above
+        // .style("fill", "none") line will remove areas in the graph that are "filled" in with solid color
+
+        svg.append("path")
+            .datum(data)
+            .attr("class", "highline")
+            .attr("d", lineHigh)
+            .style("fill", "none");
+
+        svg.append("path")
+            .datum(data)
+            .attr("class", "lowline")
+            .attr("d", lineLow)
+            .style("fill", "none");
+
+        const chart = d3.select("body").append("div")
+            .attr("class", "chart")
+            .style("position", "absolute")
+            .style("visibility", "hidden");
+
+
+        // add points to each day/temperature for better visualization
+
+        svg.selectAll(".highdot")
+            .data(data)
+            .enter().append("circle")
+            .attr("class", "highdot")
+            .attr("cx", d => x(new Date(d.date)))
+            .attr("cy", d => y(d.high))
+            .attr("r", 5)
+            
+        svg.selectAll(".lowdot")
+            .data(data)
+            .enter().append("circle")
+            .attr("class", "lowdot")
+            .attr("cx", d => x(new Date(d.date)))
+            .attr("cy", d => y(d.low))
+            .attr("r", 5)
+            
+    </script>
+</body>
+</html>
+
+>>>>>>> 05b6fa7be20e169e64dcf0328129486de5f7ee07
